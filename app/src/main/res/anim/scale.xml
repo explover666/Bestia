@@ -1,0 +1,13 @@
+<scale android:duration="750"
+    android:fillBefore="false"
+    android:fromXScale="0.2"
+    android:fromYScale="0.2"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:startOffset="0"
+    android:toXScale="1"
+    android:toYScale="1"
+    android:repeatMode="reverse"
+    android:repeatCount="infinite"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" />
