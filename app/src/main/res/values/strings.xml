@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bestia</string>
+    <string-array name="name_poster">
+        <item>poster1</item>
+        <item>poster2</item>
+        <item>poster3</item>
+        <item>poster4</item>
+    </string-array>
+    
+</resources>
+
