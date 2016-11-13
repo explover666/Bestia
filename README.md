@@ -1,1 +1,1 @@
-http://img-host.org.ua/?v=bestia.gif
+http://img-host.org.ua/images/bestia.gif
