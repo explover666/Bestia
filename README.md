@@ -1,1 +1,1 @@
-![Demo](http://img-host.org.ua/images/bestia.gif)
+![alt tag](http://img-host.org.ua/images/bestia.gif)
