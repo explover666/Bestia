@@ -1,1 +1,1 @@
-![Подсказка](http://img-host.org.ua/images/bestia2.gif)
+![Подсказка](http://img-host.org.ua/images/bestiacmc.gif)
