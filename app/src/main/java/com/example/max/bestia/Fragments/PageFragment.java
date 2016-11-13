@@ -37,7 +37,7 @@ public class PageFragment extends Fragment {
         View view = inflater.inflate(R.layout.pager_item, null);
         ImageView poster = (ImageView) view.findViewById(R.id.imageView);
         dbHelper = new DatabaseHelper(getContext());
-        poster.setImageBitmap(dbHelper.PutImage(pageNumber + 1));
+        poster.setImageBitmap(dbHelper.getImage(pageNumber + 1));
         return view;
     }
 }

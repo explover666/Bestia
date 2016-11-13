@@ -65,7 +65,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
     }
 
-    public Bitmap PutImage(int cv) {
+    public Bitmap getImage(int cv) {
         dbHelper = new DatabaseHelper(context);
         db=dbHelper.getWritableDatabase();
         c=db.rawQuery("select * from " + DatabaseHelper.DB_TABLE + " where " + DatabaseHelper.COLUMN_ID + "=?", new String[]{String.valueOf(cv)});

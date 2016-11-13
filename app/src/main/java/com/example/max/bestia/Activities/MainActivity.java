@@ -53,10 +53,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
 
         dbHelper = new DatabaseHelper(this);
-        iv_Poster1.setImageBitmap(dbHelper.PutImage(poster3));
-        iv_Poster2.setImageBitmap(dbHelper.PutImage(poster4));
-        poster_1.setImageBitmap(dbHelper.PutImage(poster1));
-        poster_2.setImageBitmap(dbHelper.PutImage(poster2));
+        iv_Poster1.setImageBitmap(dbHelper.getImage(poster3));
+        iv_Poster2.setImageBitmap(dbHelper.getImage(poster4));
+        poster_1.setImageBitmap(dbHelper.getImage(poster1));
+        poster_2.setImageBitmap(dbHelper.getImage(poster2));
 
     }
 
